@@ -1,0 +1,161 @@
+body{
+    width: 1440px;
+    height: 800px;
+    background-color: #E6EFF6;
+    font-family: 'Karla', sans-serif;
+}
+
+.card{
+    width: 635px;
+    height: 475px;
+    margin: 162px 404px 162px 404px;
+    border-radius: 10px;
+}
+
+.join{
+    width: 597px;
+    height: 192px;
+    background: #FFFFFF;
+    padding-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 38px;
+}
+
+.titulo1{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 21.5px;
+    margin-bottom: 30px;
+}
+
+.sub1{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+.paragrafo1{
+    width: 90%;
+    line-height: 25px;
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    position: relative;
+    bottom: 5px;
+}
+
+.cardBaixo{
+    width: 635px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.month{
+    padding-left: 38px;
+    padding-top: 30px;
+    width: 317px;
+    height: 229px;
+    border-bottom-left-radius: 10px;
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+}
+
+.whyus{
+    padding-left: 38px;
+    padding-top: 30px;
+    height: 229px;
+    width: 317px;
+    border-bottom-right-radius: 10px;
+    background-color: #4ABEBD;
+    color: white;
+    position: relative;
+}
+
+.vinteNove{
+    width: 20%;
+    color: white;
+    position: relative;
+    bottom: 8px;
+    
+}
+
+.pm{
+    width: 30%;
+    position: relative;
+    left: 75px;
+    bottom: 55px;
+    font-size: 16px;
+    color: hsl(213, 13%, 84%);
+}
+
+.full{
+    width: 85%;
+    position: relative;
+    bottom: 55px;
+    font-size: 16px;
+}
+
+.sign{
+    border-radius: 5px;
+    width: 88%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:hsl(71, 73%, 54%);
+    position: relative;
+    bottom: 50px;
+}
+
+.tutorials{
+    font-weight: 400;
+    width: 75%;
+    white-space: normal;
+    color: hsl(213, 13%, 84%);
+    line-height: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.wu{
+    position: relative;
+    bottom: 5px;
+}
+
+.ms{
+    position: relative;
+    bottom: 5px;
+}
+
+@media (max-width: 600px){
+    body{
+        display: flex;
+    }
+
+    .card{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .join{
+        width: 50%;
+        height: 350px;
+    }
+
+    .cardBaixo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .month{
+        border-radius: 0px;
+    }
+
+    .whyus{
+        border-bottom-left-radius: 10px;
+    }
+
+    .paragrafo1{
+
+        width: 100%;
+    }
+}
